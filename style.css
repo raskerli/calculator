@@ -1,0 +1,27 @@
+.calc-numbers {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px 50px 50px;
+}
+.zero {
+  grid-column: 1/3;
+}
+button {
+  color: white;
+  background-color: black;
+}
+.calc-body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calc-signs {
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 40px 40px 40px 40px 40px;
+}
+.sign-numbers {
+  display: flex;
+}
